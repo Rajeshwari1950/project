@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title> Restaurant </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      display: flex;
+      background-color: #f8f8f8;
+    }
+
+    /* Vertical Navbar */
+    nav {
+      width: 220px;
+      height: 100vh;
+      background-color: #1c1c1c;
+      padding: 20px;
+      position: fixed;
+      left: 0;
+      top: 0;
+    }
+
+    .logo {
+      font-size: 26px;
+      font-weight: bold;
+      color: #f4b41a;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .nav-links {
+      list-style: none;
+    }
+
+    .nav-links li {
+      margin: 20px 0;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: white;
+      font-size: 18px;
+      display: block;
+      padding: 10px 15px;
+      border-radius: 6px;
+      transition: background 0.3s, color 0.3s;
+    }
+
+    .nav-links a:hover {
+      background-color: #f4b41a;
+      color: #1c1c1c;
+    }
+
+    /* Page Content */
+    .content {
+      margin-left: 240px;
+      padding: 30px;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="logo">Foodie Hub</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="specials.html">Specials</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="content">
+    <h1>Welcome to Foodie Hub</h1>
+    <p>a menu for not just a restraunt but for a heaven!</p>
+    <img src="https://tse1.mm.bing.net/th/id/OIP.cOlMa8MwUftbCxfChpDuVwHaE5?rs=1&pid=ImgDetMain&o=7&rm=3" >
+  </div>
+</body>
+</html>
